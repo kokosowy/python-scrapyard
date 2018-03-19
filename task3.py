@@ -9,7 +9,8 @@ for x in a:
 		print('x',end='')
 		c = c - 1
 	print('')
-"""
+
+###
 
 j = 9
 while j >= 0:
@@ -23,4 +24,13 @@ while j >= 0:
 	j-=1
 	print('')
 		
-		
+"""
+
+j = 9
+for j in range (9, -1, -1):
+	for i in range(10):
+		if int(a[i]) > j :
+			print('x',end='')
+		else:
+			print(' ',end='')
+	print()
